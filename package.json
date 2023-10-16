@@ -1,0 +1,22 @@
+{
+  "name": "smart-parking-webapp-ui",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "start-backend": "cd backend && uvicorn main:app --reload",
+    "start-frontend": "cd client && npm start",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.dai-labor.de/beintelligent/tp4/services/smart-parking-webapp-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "react-date-object": "^2.1.7",
+    "react-native-geocoding": "^0.5.0"
+  }
+}

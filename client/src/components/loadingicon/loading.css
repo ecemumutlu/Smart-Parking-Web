@@ -1,0 +1,30 @@
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh; /* Sayfanın en az görüntülenen yüksekliği kadar kapsayıcı yüksekliği */
+}
+
+.waiting-icon {
+  font-family: sans-serif;
+  text-align: center;
+}
+.waiting-icon h1{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.loading-icon {
+  color: teal;
+  font-size: 3rem;
+  animation: animate 2s infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}

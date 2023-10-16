@@ -1,0 +1,29 @@
+.maps-style{
+    position:absolute; 
+    /* left: 50%; top: 50%; 
+    transform: translate(-50%, -50%);  */
+    width: 90%;
+    height: 80%;
+    margin-top: 1rem;
+}
+
+.before-calc-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.before-calc-centered-text {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.current-location-div{
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+}
+.select-preferences {
+    width: 15rem;
+}
