@@ -73,6 +73,7 @@ The SmartParkingWeb is developed using:
     - Tells git which files to ignore in Git
 - ##### `ratioMatrix.pickle`
     - This file contains our ratio matrix to give as an input to the trained model.
+    - Should be extracted firstly.
 #### **Other Parts**
 - #### `modelfiles`
     - This file holds the trained ML model.
